@@ -7,7 +7,7 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django)** g
 > Deploy In production
 
 - Update `apps/templates` files and replace `/static/assets` with:
-  - {{ ASSETS_ROOT }}
+  - {{ ASSETS_BASE }}
 - Create `apps\context_processors.py`
   - Code helper: **cfg_assets_root()**
 - Update `core/settings.py` with a new variable

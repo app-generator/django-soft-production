@@ -19,8 +19,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ ASSETS_ROOT }}/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="{{ ASSETS_ROOT }}/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ ASSETS_BASE }}/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="{{ ASSETS_BASE }}/img/favicon.png">
 
   <title>
     Soft UI Dashboard by Creative Tim
@@ -29,13 +29,13 @@
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <!-- Nucleo Icons -->
-  <link href="{{ ASSETS_ROOT }}/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="{{ ASSETS_ROOT }}/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="{{ ASSETS_BASE }}/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="{{ ASSETS_BASE }}/css/nucleo-svg.css" rel="stylesheet" />
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-  <link href="{{ ASSETS_ROOT }}/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="{{ ASSETS_BASE }}/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link id="pagestyle" href="{{ ASSETS_ROOT }}/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
+  <link id="pagestyle" href="{{ ASSETS_BASE }}/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
 
 </head>
 <body class="g-sidenav-show  bg-gray-100 virtual-reality">
@@ -44,12 +44,12 @@
     {% include "includes/navigation.html" %}
   </div>
 
-  <div class="border-radius-xl mt-3 mx-3 position-relative" style="background-image: url('{{ ASSETS_ROOT }}/img/vr-bg.jpg') ; background-size: cover;">
+  <div class="border-radius-xl mt-3 mx-3 position-relative" style="background-image: url('{{ ASSETS_BASE }}/img/vr-bg.jpg') ; background-size: cover;">
     <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 " id="sidenav-main">
       <div class="sidenav-header">
         <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
         <a class="navbar-brand m-0" href="https://demos.creative-tim.com/soft-ui-dashboard/index.html" target="_blank">
-          <img src="{{ ASSETS_ROOT }}/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
+          <img src="{{ ASSETS_BASE }}/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
           <span class="ms-1 font-weight-bold">Soft UI Dashboard</span>
         </a>
       </div>
@@ -228,7 +228,7 @@
       </div>
       <div class="sidenav-footer mx-3 ">
         <div class="card card-background shadow-none card-background-mask-secondary" id="sidenavCard">
-          <div class="full-background" style="background-image: url('{{ ASSETS_ROOT }}/img/curved-images/white-curved.jpeg')"></div>
+          <div class="full-background" style="background-image: url('{{ ASSETS_BASE }}/img/curved-images/white-curved.jpeg')"></div>
           <div class="card-body text-start p-3 w-100">
             <div class="icon icon-shape icon-sm bg-white shadow text-center mb-3 d-flex align-items-center justify-content-center border-radius-md">
               <i class="ni ni-diamond text-dark text-gradient text-lg top-0" aria-hidden="true" id="sidenavCardIcon"></i>
@@ -249,7 +249,7 @@
           <div class="row pt-10">
             <div class="col-lg-1 col-md-1 pt-5 pt-lg-0 ms-lg-5 text-center">
               <a href="javascript:;" class="avatar avatar-md border-0" data-bs-toggle="tooltip" data-bs-placement="left" title="My Profile">
-                <img class="border-radius-lg" alt="Image placeholder" src="{{ ASSETS_ROOT }}/img/team-1.jpg">
+                <img class="border-radius-lg" alt="Image placeholder" src="{{ ASSETS_BASE }}/img/team-1.jpg">
               </a>
               <button class="btn btn-white border-radius-lg p-2 mt-2" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Home">
                 <i class="fas fa-home p-2"></i>
@@ -268,7 +268,7 @@
                   <h6 class="text-uppercase mb-0 ms-1">Cloudy</h6>
                 </div>
                 <div class="ms-auto">
-                  <img class="w-50 float-end mt-lg-n4" src="{{ ASSETS_ROOT }}/img/small-logos/icon-sun-cloud.png" alt="image sun">
+                  <img class="w-50 float-end mt-lg-n4" src="{{ ASSETS_BASE }}/img/small-logos/icon-sun-cloud.png" alt="image sun">
                 </div>
               </div>
               <div class="row mt-4">
@@ -332,7 +332,7 @@
                 <div class="col-lg-4 col-md-4 mt-4 mt-sm-0">
                   <div class="card card-background card-background-mask-primary move-on-hover align-items-start">
                     <div class="cursor-pointer">
-                      <div class="full-background" style="background-image: url('{{ ASSETS_ROOT }}/img/curved-images/curved1.jpg')"></div>
+                      <div class="full-background" style="background-image: url('{{ ASSETS_BASE }}/img/curved-images/curved1.jpg')"></div>
                       <div class="card-body">
                         <h5 class="text-white mb-0">Some Kind Of Blues</h5>
                         <p class="text-white text-sm">Deftones</p>
@@ -357,16 +357,16 @@
                         <div class="ms-auto">
                           <div class="avatar-group">
                             <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="2 New Messages">
-                              <img alt="Image placeholder" src="{{ ASSETS_ROOT }}/img/team-1.jpg">
+                              <img alt="Image placeholder" src="{{ ASSETS_BASE }}/img/team-1.jpg">
                             </a>
                             <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="1 New Message">
-                              <img alt="Image placeholder" src="{{ ASSETS_ROOT }}/img/team-2.jpg">
+                              <img alt="Image placeholder" src="{{ ASSETS_BASE }}/img/team-2.jpg">
                             </a>
                             <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="13 New Messages">
-                              <img alt="Image placeholder" src="{{ ASSETS_ROOT }}/img/team-3.jpg">
+                              <img alt="Image placeholder" src="{{ ASSETS_BASE }}/img/team-3.jpg">
                             </a>
                             <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="7 New Messages">
-                              <img alt="Image placeholder" src="{{ ASSETS_ROOT }}/img/team-4.jpg">
+                              <img alt="Image placeholder" src="{{ ASSETS_BASE }}/img/team-4.jpg">
                             </a>
                           </div>
                         </div>
@@ -400,7 +400,7 @@
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="{{ ASSETS_ROOT }}/js/soft-ui-dashboard.min.js?v=1.0.3"></script>
+  <script src="{{ ASSETS_BASE }}/js/soft-ui-dashboard.min.js?v=1.0.3"></script>
 
 </body>
 </html>

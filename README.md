@@ -4,6 +4,23 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django)** g
 
 <br />
 
+> Deploy In production
+
+- Update `apps/templates` files and replace `/static/assets` with:
+  - {{ ASSETS_ROOT }}
+- Create `apps\context_processors.py`
+  - Code helper: **cfg_assets_root()**
+- Update `core/settings.py` with a new variable
+  - `ASSETS_BASE` 
+
+During runtime, the `cfg_assets_root` context processor resolve the `ASSETS_BASE` variable based on the value of `Debug` flag: 
+- When `DEBUG=True`
+  - Local path is used: `/static/assets`
+- For  `DEBUG=False` (production mode)
+  - `ASSETS_BASE` is initialized with the value set in config 
+
+<br />
+
 > Features
 
 - `Up-to-date dependencies`
